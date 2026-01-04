@@ -8,23 +8,24 @@ void main () {
 
 }
 
-// import 'dart:io';
-// void main ( ) {
-//     print("Enter your speed (km/h): ");
-//     String inputS = stdin.readLineSync()!;
-//     int speed = int.parse(inputS);
-//     print("Enter the distance in (km) :");
-//     String inputD = stdin.readLineSync()!;
-//     int distance = int.parse(inputD);
-//     double time = distance / speed ;
-//     double timeInMinits = time * 60;
-//     print ('The journey takes you ${timeInMinits.toInt()}(min)');
-//     print ('The journey takes you ${timeInMinits.round()} (min)');// timeInMinits Rounding to the nearest integer .  
-//     print ('The journey takes you ${timeInMinits.toStringAsFixed(1)} (min)'); // one decimal place 
+import 'dart:io';
+void main ( ) {
+    print("Enter your speed (km/h): ");
+    String inputS = stdin.readLineSync()!;
+    int speed = int.parse(inputS);
+    print("Enter the distance in (km) :");
+    String inputD = stdin.readLineSync()!;
+    int distance = int.parse(inputD);
+    double time = distance / speed ;
+    double timeInMinits = time * 60;
+    print ('The journey takes you ${timeInMinits.toInt()}(min)');
+    print ('The journey takes you ${timeInMinits.round()} (min)');// timeInMinits Rounding to the nearest integer .  
+    print ('The journey takes you ${timeInMinits.toStringAsFixed(1)} (min)'); // one decimal place 
 
 
 
-// }
+}
+
 
 
 
