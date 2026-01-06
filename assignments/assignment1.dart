@@ -1,12 +1,12 @@
-void main () {
-    int distanceOH = 25;//distance ofice to home is 25km
-    int speed = 40; // 40km perHour 
-    double timeTaken = distanceOH / speed; // time = Distamce / speed  so time is 0.625h
+// void main () {
+//     int distanceOH = 25;//distance ofice to home is 25km
+//     int speed = 40; // 40km perHour 
+//     double timeTaken = distanceOH / speed; // time = Distamce / speed  so time is 0.625h
     
-    double timeTakenInMinits = timeTaken * 60 ; // Multiplaication hours and minutes to calculate the time in minutes so time is 37.5
-    print("Time taken to get gome in minutes : $timeTakenInMinits");
+//     double timeTakenInMinits = timeTaken * 60 ; // Multiplaication hours and minutes to calculate the time in minutes so time is 37.5
+//     print("Time taken to get gome in minutes : $timeTakenInMinits");
 
-}
+// }
 
 // import 'dart:io';
 // void main ( ) {
@@ -25,7 +25,5 @@ void main () {
 
 
 // }
-
-
 
 
